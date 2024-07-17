@@ -26,4 +26,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: cataogabs/app-net-lab:latest, cataogabs/app-net-lab:${{ github.run_number }}
+          tags: cataogabs/app:latest, cataogabs/app:${{ github.run_number }}
